@@ -35,7 +35,7 @@ However, I've also put [pre-built binaries](https://github.com/pharo-nosql/PunQL
 
 ```Smalltalk
 Metacello new 
-	repository: 'github://pharo-nosql/PunQLite/repository'
+	repository: 'github://pharo-nosql/PunQLite/src'
 	baseline: 'PunQLite';
 	load.
 ```
