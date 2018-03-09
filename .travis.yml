@@ -18,7 +18,7 @@ script:
 env: 
   global: 
     - baseline="PunQLite"
-    - packages_dir="repository"
+    - packages_dir="src"
   matrix:
     - pharo_version="70"
     - pharo_version="60"
