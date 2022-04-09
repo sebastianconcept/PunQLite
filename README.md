@@ -6,8 +6,6 @@ UnQLite is a fast, lightweight, portable, embedded KVS with a simple scripting e
 
 Directories:
 
-- binary
- + pre-built shared libraries (unqlite.dll, dylib, so, etc)
 - repository
  + [Cypress](https://github.com/CampSmalltalk/Cypress) style Smalltalk source tree
 
@@ -28,8 +26,6 @@ gcc -m32 -shared -static-libgcc -o unqlite.dll unqlite.o -Wl,--add-stdcall-alias
 #mac
 gcc -m32 -dynamiclib -o unqlite.dylib unqlite.o
 ```
-
-However, I've also put [pre-built binaries](https://github.com/pharo-nosql/PunQLite/releases) for common platforms, so please just download them if you have no time to compile.
 
 - Load PunQLite
 
